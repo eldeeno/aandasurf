@@ -2,16 +2,19 @@
 <html class="no-js" lang="en">
     <head>
         <!-- title -->
-        <title>A&A Surf Networks Ltd. – Creative Tech Agency</title>
+        <title>A&A Surf Networks – Home</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="author" content="ThemeZaa">
+        <!-- description -->
+        <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
         <!-- keywords -->
-        <meta name="keywords" content="creative, web development, product branding, tech training, sotware developement, training, moile, apps, applications, Abuja, product designer, mobile application, api developent">
+        <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/favicon.ico">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/logo.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico">
         <!-- style sheets and font icons  -->
         <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
@@ -20,18 +23,15 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     </head>
-    <body>
+    <body class="bg-background-fade">
         <!-- start header -->
-        <header>
+        <header class="">
             <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
-                <div class="container-lg nav-header-container">
+            <nav style="height: 80px;" class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg on no-full">
+                <div class="container-fluid nav-header-container" style="margin-left: 50px; margin-right: 50px;">
                     <!-- start logo -->
                     <div class="col-auto ps-0">
-                        <a href="/" title="Pofo" class="logo">
-                            <img src="images/logo.png" data-at2x="images/logo.png" class="logo-dark" alt="Pofo">
-                            <img src="images/logo.png" data-at2x="images/logo.png" alt="Pofo" class="logo-light default">
-                        </a>
+                        <a href="index.html"  title="Pofo" class="logo"><img src="images/logo.png" data-at2x="images/logo.png" class="logo-dark" alt="Pofo" width="0" height="0"><img src="images/logo.png" data-at2x="images/logo.png" alt="Pofo" class="logo-light default" width="105" height="26"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col-auto col-lg accordion-menu pe-0">
@@ -43,11 +43,12 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul class="nav navbar-nav alt-font font-weight-700">
-                                <li><a href="#home" title="Home" class="inner-link">Home</a></li>
-                                <li><a href="#about" title="About" class="inner-link">About</a></li>
-                                <li><a href="#services" title="Services" class="inner-link">Services</a></li>
-                                <li><a href="#portfolio" title="Portfolio" class="inner-link">Portfolio</a></li>
-                                <li><a href="#team" title="Team" class="inner-link">Team</a></li>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="#about" title="About" class="inner-link">About us</a></li>
+                                <li><a href="#services" class="inner-link">Our services</a></li>
+                                <li><a href="#portfolio" class="inner-link">Portfolio</a></li>
+                                <li><a href="products.html" class="inner-link">Our products</a></li>
+                                <li><a href="#contact" class="inner-link">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,289 +57,205 @@
             <!-- end navigation -->  
         </header>
         <!-- end header -->
-        <!-- start slider section -->
-        <section id="home" class="p-0 full-screen fit-videos position-relative">
-            <div class="opacity-extra-medium bg-extra-dark-gray"></div>
+        
+        <!-- start hero section -->
+        <section class="wow animate__fadeIn p-0 cover-background color-code" data-color="1"  style="background-image: url('images/option16-banner-bg.png');">
             <div class="container position-relative full-screen">
-                <div class="row h-100 align-items-center">                    
-                    <div class="col-12 col-lg-8 col-sm-9 text-center mx-auto">
-                        <span class="text-medium margin-20px-bottom d-block alt-font text-extra-light-gray">We provide world-class solutions using technology.</span>
-                        <h4 class="alt-font text-white-2 font-weight-600 text-uppercase">A digtal agency crafting beautiful solutions.</h4>
-                        <a href="#contact" class="btn btn-small btn-white btn-rounded margin-15px-top">Get Started</a>
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 col-xl-10 col-md-10 mx-auto text-center">
+                        <span class="after-before-separator text-extra-small alt-font text-white-2 letter-spacing-3 sm-letter-spacing-0 text-uppercase margin-20px-bottom sm-margin-5px-bottom d-inline-block">AA Surf Networks Ltd.</span>
+                        <h2 class="font-weight-600 text-white-2 alt-font margin-40px-bottom sm-margin-25px-bottom">We combine design thinking & technical expertise to build solutions.</h2>
+                        <a href="#portfolio" class="btn btn-transparent-white btn-rounded btn-medium text-link-white-2 inner-link">Featured Works</a>
                     </div>
-                    <div class="down-section text-center"><a href="#about" class="inner-link"><i class="ti-arrow-down icon-extra-small text-white-2 bg-deep-pink padding-15px-all sm-padding-15px-all rounded-circle"></i></a></div>                        
                 </div>
             </div>
-            <!-- start HTML5 video -->
-            <video loop="" autoplay="" controls="" muted class="htms-video" poster="images/slider.jpg">
-                <source type="video/mp4" src="video/video2.mp4">
-                <!-- <source type="video/ogg" src="video/video.ogg">
-                <source type="video/webm" src="video/video.webm"> -->
-            </video>
-            <!-- end HTML5 video -->
         </section>
-        <!-- end slider section -->
-        
+        <!-- end hero section -->
+
         <!-- start about section -->
-        <section id="about" class="wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <section id="about" class="wow animate__fadeIn color-code lg-no-background-img xs-padding-100px-bottom" data-color="2" style="background: url('images/back-image1.png') left bottom no-repeat,url('images/back-image2.png') right top no-repeat">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-xl-8 col-lg-9 col-md-11 text-center margin-six-bottom sm-margin-30px-bottom">
-                        <div class="alt-font text-medium-gray margin-5px-bottom text-uppercase text-small">About A&A Surf Network Ltd.</div>
-                        <h6 class="font-weight-300 text-extra-dark-gray mb-0">We do what we say and do it well! We believe that customer’s satisfaction and trust will always be our
-                            Key for success.</h6>
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center">
-                    <!-- feature box item-->
-                    <div class="col md-margin-30px-bottom xs-margin-15px-bottom last-paragraph-no-margin wow animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="feature-box">
-                            <div class="content">
-                                <i class="icon-desktop text-medium-gray icon-large margin-25px-bottom md-margin-15px-bottom"></i>
-                                <div class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom">Quality</div>
-                                <p class="w-85 mx-auto md-w-100">Quality is at the heart of everything we do. From product design to customer service, we strive to exceed expectations and deliver the best possible experience.</p>
-                            </div>        
+                    <div class="col-10 col-xl-8 col-md-10 text-center">
+                        <div class="text-extra-small letter-spacing-3 alt-font text-white-2 text-uppercase margin-50px-bottom md-margin-30px-bottom sm-margin-10px-bottom d-inline-block">
+                            about A&A Surf Networks Ltd.
                         </div>
+                        <h6 class="text-white-2 alt-font w-100 margin-50px-bottom md-no-margin-bottom">
+                            We do what we say & do it well! 
+                            <!-- <br>Customers satisfaction & trust will always be our key for success. -->
+                        </h6>
                     </div>
-                    <!-- end feature box item-->
-                    <!-- feature box item-->
-                    <div class="col md-margin-30px-bottom xs-margin-15px-bottom last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="feature-box">
-                            <div class="content">
-                                <i class="icon-lightbulb text-medium-gray icon-large margin-25px-bottom md-margin-15px-bottom"></i>
-                                <div class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom">Innovative Ides</div>
-                                <p class="w-85 mx-auto md-w-100">Innovative solutions for a better future. Our passion for technology drives us to create new and improved solutions that make a difference in people's lives.</p>
-                            </div>
-                        </div>
+                    <div class="col-12 col-xl-10 col-md-12 text-center margin-50px-bottom">
+                        <p class="text-white-2 alt-font text-medium w-100 margin-30px-bottom md-no-margin-bottom">
+                            A&A Surf Networks is a tech company that solves problems using innovative technological ideas. Since our foundation in 2018, our goal has been to use digital technology to create experiences. Our core competencies, with the implementation of our product-based solutions, include transparency, efficiency, capability, and adaptability.
+                            Overall, A&A Surf Network LTD strives to create the best technological solutions.
+                        </p>
+                        <a href="about.html" class="btn btn-transparent-white btn-rounded btn-medium text-link-white-2 inner-link">Read more</a>
                     </div>
-                    <!-- end feature box item-->
-                    <!-- feature box item-->
-                    <div class="col last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <div class="feature-box">
-                            <div class="content">
-                                <i class="icon-tools text-medium-gray icon-large margin-25px-bottom md-margin-15px-bottom"></i>
-                                <div class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom">Creativity</div>
-                                <p class="w-85 mx-auto md-w-100">Fueled by creativity, our passion for innovative thinking leads us to break boundaries & discover new & better ways to solve problems and achieve success.</p>
-                            </div>   
-                        </div>
-                    </div>
-                    <!-- end feature box item-->
-                </div>
-            </div>            
-        </section>
 
-        <section class="p-0 wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-xl-4 col-md-6 bg-extra-dark-gray d-flex align-items-center wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                        <div class="padding-six-all md-padding-nine-all sm-padding-50px-tb sm-padding-15px-lr">
-                            <h5 class="alt-font text-white-2">We provide high quality and cost effective services</h5>
-                            <p class="text-extra-large font-weight-300 text-extra-light-gray">Since our foundation in 2018 our goal has been to use digital technology to create experiences.</p>
-                            <p class="w-90 sm-w-100">
-                                A&A Surf Networks is a tech company that solves problems using innovative technological ideas. Our core competencies with the implementation of our product-based solutions include transparency, efficiency, capability, and adaptability. Overall, A&A Surf Network LTD strives to create the best tech solutions.
-                            </p>
-                            <a href="#services" class="btn inner-link btn-small btn-rounded btn-transparent-white">Explore services</a>
-                        </div>                       
-                    </div>  
-                    <div class="col-12 col-xl-4 col-md-6 bg-extra-dark-gray cover-background sm-h-400px wow animate__fadeIn" style="background-image: url(&quot;images/about1.jpg&quot;); visibility: visible; animation-name: fadeIn;"></div>
-                    <div class="col-12 col-xl-4 col-md-12 bg-extra-dark-gray align-items-center padding-five-tb padding-five-half-lr lg-padding-50px-tb md-padding-70px-tb md-padding-ten-lr xs-padding-50px-tb xs-padding-20px-lr wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-12 col-sm-8 margin-four-bottom lg-margin-six-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center text-md-start">
-                                <h5 class="alt-font text-white-2 margin-35px-bottom sm-margin-15px-bottom">We specialize in numerous IT and Business solutions services.</h5>
+                    <div class="container margin-70px-bottom">
+                        <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center">
+                            <!-- feature box item-->
+                            <div class="col md-margin-30px-bottom xs-margin-15px-bottom last-paragraph-no-margin wow animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                <div class="feature-box">
+                                    <div class="content text-white">
+                                        <i class="icon-desktop icon-large margin-25px-bottom md-margin-15px-bottom"></i>
+                                        <div class="text-medium font-weight-600 alt-font text-capitalize text-white-2 margin-10px-bottom md-margin-5px-bottom">Quality</div>
+                                        <p class="w-85 mx-auto md-w-100">Quality is at the heart of everything we do. From product design to customer service, we strive to exceed expectations and deliver the best possible experience.</p>
+                                    </div>        
+                                </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-12 margin-30px-bottom text-center">                        
-                                <!-- start progress bar item -->
-                                <div class="progress progress-step-style-02 bg-transparent-white2 rounded-0 margin-55px-bottom">
-                                    <span class="progress-title text-extra-small text-uppercase text-white-2">Software Development</span>
-                                    <div class="progress-bar bg-gradient-light-red-light-white rounded-0 appear" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%;"></div>
-                                    <span class="progress-bar-percent text-small">92%</span>
+                            <!-- end feature box item-->
+                            <!-- feature box item-->
+                            <div class="col md-margin-30px-bottom xs-margin-15px-bottom last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="feature-box">
+                                    <div class="content text-white">
+                                        <i class="icon-lightbulb icon-large margin-25px-bottom md-margin-15px-bottom"></i>
+                                        <div class="text-medium font-weight-600 alt-font text-capitalize text-white-2 margin-10px-bottom md-margin-5px-bottom">Innovative Ides</div>
+                                        <p class="w-85 mx-auto md-w-100">Innovative solutions for a better future. Our passion for technology drives us to create new and improved solutions that make a difference in people's lives.</p>
+                                    </div>
                                 </div>
-                                <!-- end progress bar item -->
-                                <!-- start  progress bar item -->
-                                <div class="progress progress-step-style-02 bg-transparent-white2 rounded-0 margin-55px-bottom">
-                                    <span class="progress-title text-extra-small text-uppercase text-white-2">Branding & Product Design</span>
-                                    <div class="progress-bar bg-gradient-light-red-light-white rounded-0 appear" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%;"></div>
-                                    <span class="progress-bar-percent text-small">97%</span>
-                                </div>
-                                <!-- end progress bar item -->
-                                <!-- start  progress bar item -->
-                                <div class="progress progress-step-style-02 bg-transparent-white2 rounded-0 margin-55px-bottom">
-                                    <span class="progress-title text-extra-small text-uppercase text-white-2">Training</span>
-                                    <div class="progress-bar bg-gradient-light-red-light-white rounded-0 appear" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-                                    <span class="progress-bar-percent text-small">98%</span>
-                                </div>
-                                <!-- end progress bar item -->
-                                <!-- start  progress bar item -->
-                                <div class="progress progress-step-style-02 bg-transparent-white2 rounded-0">
-                                    <span class="progress-title text-extra-small text-uppercase text-white-2">IT & Business Consultation</span>
-                                    <div class="progress-bar bg-gradient-light-red-light-white rounded-0 appear" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%;"></div>
-                                    <span class="progress-bar-percent text-small">92%</span>
-                                </div>
-                                <!-- end progress bar item -->
                             </div>
+                            <!-- end feature box item-->
+                            <!-- feature box item-->
+                            <div class="col last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <div class="feature-box">
+                                    <div class="content text-white">
+                                        <i class="icon-tools icon-large margin-25px-bottom md-margin-15px-bottom"></i>
+                                        <div class="text-medium font-weight-600 alt-font text-capitalize text-white-2 margin-10px-bottom md-margin-5px-bottom">Creativity</div>
+                                        <p class="w-85 mx-auto md-w-100">Fueled by creativity, our passion for innovative thinking leads us to break boundaries &amp; discover new &amp; better ways to solve problems and achieve success.</p>
+                                    </div>   
+                                </div>
+                            </div>
+                            <!-- end feature box item-->
                         </div>
-                    </div>                       
+                    </div>
                 </div>
             </div>
         </section>
         <!-- end about section -->
-
+        
         <!-- start services section -->
-        <section id="services" class="bg-light-gray wow animate__fadeIn">
+        <section id="services" class="wow animate__fadeIn color-code lg-no-background-img xs-padding-100px-bottom" data-color="3" style="visibility: visible; animation-name: fadeIn;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 col-md-8 col-sm-10 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
-                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our Services</h5>
-                        <p class="mb-0">We are solution-driven, working with a strong focus on problem, we create solutions that give our clients wonderful digital experience.</p>
-                    </div>  
-                </div>
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 margin-five-bottom md-margin-20px-bottom sm-margin-10px-bottom">
-                    <!-- start services item -->
-                    <div class="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-desktop text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Web Design</div>
-                            <p class="w-75 lg-w-90 mx-auto">We design professional websites that will give an exlusive representation of your brand online.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
+                    <div class="col-10 col-xl-8 col-md-10 text-center">
+                        <div class="text-extra-small letter-spacing-3 alt-font text-white-2 text-uppercase margin-50px-bottom md-margin-30px-bottom sm-margin-10px-bottom d-inline-block">
+                            Featured services
                         </div>
+                        <h6 class="text-white-2 alt-font w-100 margin-50px-bottom md-no-margin-bottom">
+                            We are solution-driven, working with a strong focus on problem, we create solutions that give our clients wonderful digital experience.
+                        </h6>
                     </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-phone text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Mobile Development</div>
-                            <p class="w-75 lg-w-90 mx-auto">Leading-edge mobile solutions for a connected world, delivering seamless, user-friendly experiences.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-paintbrush text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Web/Api Development</div>
-                            <p class="w-75 lg-w-90 mx-auto">Expertly crafted web and API solutions that drive efficiency, scalability, and innovation for your business.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-scissors text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Product Design</div>
-                            <p class="w-75 lg-w-90 mx-auto">Designing products with purpose and creativity, elevating the user experience and bringing your vision to life.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
                 </div>
 
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 margin-five-bottom md-margin-20px-bottom sm-margin-10px-bottom">
-                    <!-- start services item -->
-                    <div class="col xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-scissors text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Branding</div>
-                            <p class="w-75 lg-w-90 mx-auto">Crafting unique and memorable brands that captivate, inspire, and build lasting relationships with your audience.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-paintbrush text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Graphic Design</div>
-                            <p class="w-75 lg-w-90 mx-auto">Visual storytelling at its finest. Our graphic design elevates your brand, brings your ideas to life, and connects you with your audience.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-scissors text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Training</div>
-                            <p class="w-75 lg-w-90 mx-auto">Empowering individuals and organizations with skills and knowledge through personalized training and development programs.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                    <!-- start services item -->
-                    <div class="col xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <div class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-scissors text-white-2 icon-round-small bg-deep-pink"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">IT Consultation</div>
-                            <p class="w-75 lg-w-90 mx-auto">Maximizing technology potential through expert IT consultation, strategy, and implementation for businesses of all sizes.</p>
-                            <div class="feature-box-overlay bg-deep-pink"></div>
-                        </div>
-                    </div>
-                    <!-- end services item -->
-                </div>
-            </div>
-        </section>
-        <!-- end services section -->
-
-         <!-- start parallax section -->
-         <section class="parallax wow animate__fadeIn" data-parallax-background-ratio="0.3" style="background-image:url('images/parallax1.jpg');">
-            <div class="opacity-extra-medium bg-black"></div>
-            <div class="container position-relative">
                 <div class="row">
-                    <div class="col-12 col-lg-6 text-center mx-auto last-paragraph-no-margin">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=sU3FkzUKHXU"><img src="images/icon-play.png" class="w-30" alt=""/></a>
-                        <h5 class="alt-font text-white-2 margin-15px-bottom">Unique. Powerful. Creative.</h5>
-                        <p class="text-extra-large font-weight-300 text-light-gray w-85 sm-w-100 d-inline-block margin-25px-bottom">Unleashing creativity, embracing uniqueness, and harnessing the power of imagination.</p>
+                    <div class="col-12 blog-content margin-10px-top">
+                        <ul class="blog-text blog-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                            <li class="grid-sizer"></li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-post blog-post-style6 border border-white-light padding-ten-all lg-padding-10px-all sm-padding-10px-all h-100">
+                                    <div class="post-details">
+                                        <span class="text-large font-weight-600 alt-font text-uppercase margin-10px-bottom d-block text-dark-gray">CONSULTATION</span>
+                                        <span class="text-medium alt-font margin-10px-bottom sm-margin-10px-bottom d-block">
+                                            <a href="#" class="text-white-2">
+                                                Elevate success with IT/Business Consultation. We optimize strategies, streamline operations, and drive growth, guiding your path to excellence.
+                                            </a>
+                                        </span>
+                                        <a href="#" class="btn mt-2 btn-dark-gray btn-very-small text-extra-small">Reade more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <img src="images/services-img4.jpg" alt="" data-no-retina="">
+                            </li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-post blog-post-style6 border border-white-light padding-ten-all lg-padding-10px-all sm-padding-10px-all h-100">
+                                    <div class="post-details">
+                                        <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom d-block text-dark-gray">TECH SUPPORT</span>
+                                        <span class="text-medium alt-font margin-10px-bottom sm-margin-10px-bottom d-block">
+                                            <a href="#" class="text-white-2">
+                                                Empowering seamless experiences, our Tech Support service offers swift resolutions, ensuring smooth operations and enhancing technological journeys.
+                                            </a>
+                                        </span>
+                                        <a href="#" class="btn mt-2 btn-dark-gray btn-very-small text-extra-small">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 blog-content margin-10px-top">
+                        <ul class="blog-text blog-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                            <li class="grid-sizer"></li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-post blog-post-style6 border border-white-light padding-ten-all lg-padding-10px-all sm-padding-10px-all h-100">
+                                    <div class="post-details">
+                                        <span class="text-large font-weight-600 alt-font text-uppercase margin-10px-bottom d-block text-dark-gray">Software Development</span>
+                                        <span class="text-medium alt-font margin-10px-bottom sm-margin-10px-bottom d-block">
+                                            <a href="#" class="text-white-2">
+                                                We offer leading-edge software solutions for a connected world, delivering seamless, user-friendly experiences.
+                                            </a>
+                                        </span>
+                                        <!-- <a href="#" class="btn mt-2 btn-dark-gray btn-very-small text-extra-small">Reade more</a> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-post blog-post-style6 border border-white-light padding-ten-all lg-padding-10px-all sm-padding-10px-all h-100">
+                                    <div class="post-details">
+                                        <span class="text-large font-weight-600 alt-font text-uppercase margin-10px-bottom d-block text-dark-gray">Training</span>
+                                        <span class="text-medium alt-font margin-10px-bottom sm-margin-10px-bottom d-block">
+                                            <a href="#" class="text-white-2">
+                                                Empowering individuals & organizations with skills through personalized training & development programs.
+                                            </a>
+                                        </span>
+                                        <!-- <a href="#" class="btn mt-2 btn-dark-gray btn-very-small text-extra-small">Read more</a> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-post blog-post-style6 border border-white-light padding-ten-all lg-padding-10px-all sm-padding-10px-all h-100">
+                                    <div class="post-details">
+                                        <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom d-block text-dark-gray">Cyber Security</span>
+                                        <span class="text-medium alt-font margin-10px-bottom sm-margin-10px-bottom d-block">
+                                            <a href="#" class="text-white-2">
+                                                Safeguarding digital realms, our Cyber Security service fortifies data, shields privacy, & defends against evolving threats with expertise.
+                                            </a>
+                                        </span>
+                                        <!-- <a href="#" class="btn mt-2 btn-dark-gray btn-very-small text-extra-small">Read more</a> -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- end parallax section -->
+        <!-- start services section -->
 
         <!-- start portfolio section -->
-        <section id="portfolio" class="pb-0 wow animate__fadeIn">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 col-md-8 col-sm-10 margin-eight-bottom text-center last-paragraph-no-margin md-margin-40px-bottom sm-margin-30px-bottom">
-                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Recent Portfolio</h5>
-                        <p class="mb-0">We are idea-driven, working with a strong focus on design and user experience. Our projects should engage your audience, we want to create wonderful digital things that people love to be part of and use.</p>
-                    </div>  
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <!-- start filter navigation -->
-                        <ul class="portfolio-filter nav nav-tabs justify-content-center border-0 portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-80px-bottom text-small md-margin-40px-bottom sm-margin-20px-bottom">
-                            <li class="nav active"><a href="javascript:void(0);" data-filter="*" class="light-gray-text-link text-very-small">All</a></li>
-                            <li class="nav"><a href="javascript:void(0);" data-filter=".web" class="light-gray-text-link text-very-small">Web/Api</a></li>
-                            <li class="nav"><a href="javascript:void(0);" data-filter=".advertising" class="light-gray-text-link text-very-small">Mobile</a></li>
-                            <li class="nav"><a href="javascript:void(0);" data-filter=".branding" class="light-gray-text-link text-very-small">Branding</a></li>
-                            <li class="nav"><a href="javascript:void(0);" data-filter=".design" class="light-gray-text-link text-very-small">Design</a></li>
-                        </ul>                                                                           
-                        <!-- end filter navigation -->
-                    </div>
-                </div>
-            </div>
+        <section id="portfolio" class="wow animate__fadeIn color-code p-0" data-color="4"> 
             <div class="container-fluid">
-                <div class="row margin-six-bottom sm-margin-30px-bottom">
-                    <div class="col-12 filter-content overflow-hidden">
-                        <ul class="hover-option4 portfolio-wrapper grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-medium" style="position: relative; height: 1067.69px;">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9 col-md-10 text-center" style="margin-top: 50px;">
+                        <div class="text-extra-small letter-spacing-3 alt-font text-extra-dark-gray text-uppercase margin-70px-bottom md-margin-50px-bottom sm-margin-30px-bottom d-inline-block">Featured Works</div> 
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-12 filter-content overflow-hidden padding-100px-lr md-padding-15px-lr">
+                        <ul class="hover-option8 portfolio-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-medium">
                             <li class="grid-sizer"></li>
-                            <!-- start  portfolio-item item -->
-                            <li class="grid-item web branding design wow animate__fadeInUp" style="position: absolute; left: 0%; top: 0px; animation: 0s ease 0s 1 normal none running none;">
-                                <a href="https://www.wond3rcard.com.ng/" target="_blank">
+                            <!-- start portfolio item -->
+                            <li class="grid-item wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="wond3rcard.html">
                                     <figure>
-                                        <div class="portfolio-img bg-extra-dark-gray"><img src="images/wondercard.jpeg" alt="" data-no-retina=""></div>
+                                        <div class="portfolio-img"><img src="images/wond3card.png" alt="wonder card portfolio image"/></div>
                                         <figcaption>
-                                            <div class="portfolio-hover-main text-center">
-                                                <div class="portfolio-hover-box align-middle">
-                                                    <div class="portfolio-hover-content position-relative">
-                                                        <div class="bg-deep-pink mx-auto separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                        <span class="font-weight-600 letter-spacing-1 alt-font text-white-2 text-uppercase margin-5px-bottom d-block">Wond3r Card</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small mb-0">Virtual Card System</p>
-                                                    </div>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Wond3rcard</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">NFC-base digital compimentary card</p>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -346,19 +263,37 @@
                                 </a>
                             </li>
                             <!-- end portfolio item -->
+                            
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item web branding design wow animate__fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 33.3296%; top: 0px; animation: 0s ease 0s 1 normal none running none;">
-                                <a href="single-project-page-02.html">
+                            <!-- <li class="grid-item wow animate__fadeInUplast-paragraph-no-margin">
+                                <a href="single-project-page-01.html">
                                     <figure>
-                                        <div class="portfolio-img bg-extra-dark-gray"><img src="images/about1.jpg" alt="" data-no-retina=""></div>
+                                        <div class="portfolio-img"><img src="https://via.placeholder.com/800x650" alt=""/></div>
                                         <figcaption>
-                                            <div class="portfolio-hover-main text-center">
-                                                <div class="portfolio-hover-box align-middle">
-                                                    <div class="portfolio-hover-content position-relative">
-                                                        <div class="bg-deep-pink mx-auto separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                        <span class="font-weight-600 letter-spacing-1 alt-font text-white-2 text-uppercase margin-5px-bottom d-block">Tailoring Interior</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small mb-0">Branding and Brochure</p>
-                                                    </div>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Tailoring Interior</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">Branding and Brochure</p>
+                                                </div>
+                                            </div> 
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li> -->
+                            <!-- end portfolio item -->
+
+                            <!-- start portfolio item -->
+                            <!-- <li class="grid-item wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="single-project-page-06.html">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="https://via.placeholder.com/800x650" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Pixflow Studio</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">Branding and Identity</p>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -366,19 +301,18 @@
                                 </a>
                             </li> -->
                             <!-- end portfolio item -->
+
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item advertising branding photography wow animate__fadeInUp" data-wow-delay="0.4s" style="position: absolute; left: 66.6592%; top: 0px; animation: 0s ease 0s 1 normal none running none;">
+                            <!-- <li class="grid-item wow animate__fadeInUp last-paragraph-no-margin">
                                 <a href="single-project-page-03.html">
                                     <figure>
-                                        <div class="portfolio-img bg-extra-dark-gray"><img src="images/about1.jpg" alt="" data-no-retina=""></div>
+                                        <div class="portfolio-img"><img src="https://via.placeholder.com/800x650" alt=""/></div>
                                         <figcaption>
-                                            <div class="portfolio-hover-main text-center">
-                                                <div class="portfolio-hover-box align-middle">
-                                                    <div class="portfolio-hover-content position-relative">
-                                                        <div class="bg-deep-pink mx-auto separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                        <span class="font-weight-600 letter-spacing-1 alt-font text-white-2 text-uppercase margin-5px-bottom d-block">Pixflow Studio</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small mb-0">Branding and Identity</p>
-                                                    </div>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Designblast Inc</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">Web and Photography</p>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -386,6 +320,44 @@
                                 </a>
                             </li> -->
                             <!-- end portfolio item -->
+
+                            <!-- start portfolio item -->
+                            <!-- <li class="grid-item wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="single-project-page-04.html">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="https://via.placeholder.com/800x650" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Harddot Stone</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li> -->
+                            <!-- end portfolio item -->
+
+                            <!-- start portfolio item -->
+                            <!-- <li class="grid-item wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="single-project-page-05.html">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="https://via.placeholder.com/800x650" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main">
+                                                <div class="portfolio-hover-box align-middle"> 
+                                                    <div class="portfolio-icon alt-font font-weight-600 icon-medium text-deep-pink">+</div>
+                                                    <span class="text-medium alt-font text-extra-dark-gray margin-5px-bottom">Educamp School</span>
+                                                    <p class="text-small no-letter-spacing text-medium-gray">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li> -->
+                            <!-- end portfolio item --> 
                         </ul>
                     </div>
                 </div>
@@ -393,302 +365,81 @@
         </section>
         <!-- end portfolio section -->
 
-        <!-- start team section -->
-        <section id="team" class="wow animate__fadeIn">
+        <!-- start clients logo section  -->
+        <section class="color-code xs-padding-100px-tb" data-color="5">
+            <div class="container"> 
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9 col-md-10 text-center">
+                        <!-- <div class="text-extra-small letter-spacing-3 alt-font text-white-2 text-uppercase margin-70px-bottom md-margin-50px-bottom sm-margin-30px-bottom d-inline-block">Our Clients</div>  -->
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 align-items-center">
+                    <!-- <div class="col margin-three-bottom text-center wow animate__fadeInRight">
+                        <a href="https://envato.com" target="_blank"><img src="images/logo-9.png" alt=""></a>
+                    </div>
+                    <div class="col margin-three-bottom text-center wow animate__fadeInRight" data-wow-delay="0.2s">
+                        <a href="https://woocommerce.com" target="_blank"><img src="images/logo-10.png" alt=""></a>
+                    </div>
+                    <div class="col margin-three-bottom text-center wow animate__fadeInRight" data-wow-delay="0.4s">
+                        <a href="https://magento.com" target="_blank"><img src="images/logo-11.png" alt=""></a>
+                    </div>
+                    <div class="col margin-three-bottom text-center wow animate__fadeInRight" data-wow-delay="0.6s">
+                        <a href="https://lesscss.org" target="_blank"><img src="images/logo-12.png" alt=""></a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- end client logo section -->
+
+        <!-- start contact section -->
+        <section id="contact" class="wow animate__fadeIn color-code pt-0 lg-no-background-img" data-color="2" style="background: url('images/back-image5.png') left 51% no-repeat,url('images/back-image6.png') right top no-repeat">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 col-md-8 col-sm-10 margin-five-bottom text-center last-paragraph-no-margin md-margin-10px-bottom sm-margin-10px-bottom">
-                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our Creative team</h5>
-                        <p></p>
-                    </div>  
+                    <div class="col-12 col-lg-9 col-md-10 text-center wow animate__fadeIn">
+                        <div class="text-extra-small letter-spacing-3 alt-font text-white-2 text-uppercase margin-70px-bottom md-margin-50px-bottom sm-margin-30px-bottom d-inline-block">Fill out the form and we'll be in touch soon!</div> 
+                    </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center">
-                    <!-- start team item -->
-                    <div class="col team-block text-start team-style-2 md-margin-seven-bottom sm-margin-40px-bottom wow animate__slideInUp">
-                        <figure>
-                            <div class="team-image sm-w-100">
-                                <img src="images/aisha.jpeg" alt="">
-                                <div class="team-overlay bg-deep-pink"></div>
-                                <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Aisha Abdullahi</div>
-                                    <div class="text-extra-small text-uppercase text-medium-gray">Founder / CEO</div>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <div class="overlay-content text-center icon-social-small">
-                                    <span class="text-small d-inline-block m-0">
-                                        Aisha is a passionate and driven woman in the tech industry, constantly seeking to learn 
-                                        and grow. She enjoy tackling complex challenges and finding innovative solutions to make
-                                        a positive impact on society.
-                                    </span>
-                                    <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
-                                    <a href="https://www.linkedin.com/in/aisha~abdullahi/" class="text-extra-dark-gray" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                    <a href="https://twitter.com/aisha_asalihu" class="text-extra-dark-gray" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <!-- <a href="http://www.instagram.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-instagram"></i></a> -->
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team item -->
-                    <!-- start team item -->
-                    <div class="col team-block text-start team-style-2 md-margin-seven-bottom sm-margin-40px-bottom wow animate__slideInUp" data-wow-delay="0.2s">
-                        <figure>
-                            <div class="team-image sm-w-100">
-                                <img src="images/shams.jpeg" alt="">
-                                <div class="team-overlay bg-deep-pink"></div>
-                                <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Shamsuddeen Abdulkadir</div>
-                                    <div class="text-extra-small text-uppercase text-medium-gray">CTO</div>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <div class="overlay-content text-center icon-social-small">
-                                    <span class="text-small d-inline-block m-0">
-                                        Shams is a software developer, crafting elegant and efficient code to bring innovative ideas to life.
-                                        With a creative mindset & a keen eye for detail, he thrive on solving complex problems and delivering top-notch solutions.
-                                    </span>
-                                    <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
-                                    <a href="https://web.facebook.com/deenkadirr/" class="text-extra-dark-gray" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://twitter.com/_eldeeno" class="text-extra-dark-gray" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/eldeeno_gram/" class="text-extra-dark-gray" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://www.linkedin.com/in/shamsuddeen-abdulkadir-319b7288/" class="text-extra-dark-gray" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team item -->
-                    <!-- start team item -->
-                    <div class="col team-block text-start team-style-2 md-margin-seven-bottom sm-margin-40px-bottom wow animate__slideInUp" data-wow-delay="0.4s">
-                        <figure>
-                            <div class="team-image sm-w-100">
-                                <img src="images/donald.jpeg" alt="">
-                                <div class="team-overlay bg-deep-pink"></div>
-                                <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Donald Okolocha</div>
-                                    <div class="text-extra-small text-uppercase text-medium-gray">CFO</div>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <div class="overlay-content text-center icon-social-small">
-                                    <span class="text-small d-inline-block m-0">
-                                        Hi, I'm Precious (he/him). I am particularly interested in strategic planning, management consulting,
-                                        and data analysis. In the domain of finance, I seek possibilities that blend strategic thinking and innovation.   
-                                    </span>
-                                    <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
-                                    <a href="https://twitter.com/DJNR_O" class="text-extra-dark-gray" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/in/okolocha/" class="text-extra-dark-gray" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                    <!-- <a href="http://www.instagram.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-instagram"></i></a> -->
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team item -->
-                    <!-- start team item -->
-                    <!-- <div class="col team-block text-start team-style-2 md-margin-seven-bottom sm-margin-40px-bottom wow animate__slideInUp"  data-wow-delay="0.6s">
-                        <figure>
-                            <div class="team-image sm-w-100">
-                                <img src="https://via.placeholder.com/700x892" alt="">
-                                <div class="team-overlay bg-deep-pink"></div>
-                                <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Bill Gardner</div>
-                                    <div class="text-extra-small text-uppercase text-medium-gray">Co-Founder / Design</div>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <div class="overlay-content text-center icon-social-small">
-                                    <span class="text-small d-inline-block m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry dummy text.</span>
-                                    <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
-                                    <a href="http://www.facebbok.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="http://www.twitter.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <a href="http://www.plus.google.com.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="http://www.instagram.com" class="text-extra-dark-gray" target="_blank"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div> -->
-                    <!-- end team item -->
-                </div>
-            </div>
-        </section>
-        <!-- end team section -->
-
-        <!-- start testimonial section -->
-        <!-- <section class="wow animate__fadeIn" style="background-image: url(&quot;images/testimonial-bg.png&quot;); visibility: visible; animation-name: fadeIn;"> -->
-            <!-- <div class="container"> -->
-                <!-- <div class="row justify-content-center">
-                    <div class="col-12 col-lg-7 text-center margin-100px-bottom sm-margin-40px-bottom">
-                        <div class="position-relative overflow-hidden w-100">
-                            <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">What our clients are saying.</span>
+                <form id="contact-form-2" action="email-templates/contact-form.php" method="post">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 input-border-white wow animate__fadeIn text-center">
+                            <div class="form-results d-none"></div>
+                            <input type="text" name="name" id="name" placeholder="Name*" class="input-border-bottom border-white-light required">
+                            <input type="email" name="email" id="email" placeholder="E-mail*" class="input-border-bottom border-white-light required">
+                            <input type="tel" id="subject" name="subject" placeholder="Subject" class="input-border-bottom border-white-light">
+                            <textarea name="comment" id="comment" placeholder="Your Message" class="input-border-bottom border-white-light"></textarea>
+                            <button id="contact-us-button-2" type="submit" class="btn btn-very-small btn-transparent-white sm-margin-15px-top submit">send message</button>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="row position-relative"> -->
-                    <!-- <div class="swiper-slider-third swiper-pagination-bottom swiper-container black-move testimonial-style2 text-center padding-35px-bottom lg-padding-20px-bottom sm-padding-10px-bottom wow animate__fadeIn swiper-initialized swiper-horizontal swiper-pointer-events" data-slider-options="{ &quot;slidesPerView&quot;: &quot;1&quot;, &quot;allowTouchMove&quot;:true, &quot;loop&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 3000, &quot;disableOnInteraction&quot;: false }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next-3&quot;, &quot;prevEl&quot;: &quot;.swiper-button-prev-3&quot; }, &quot;pagination&quot;: { &quot;el&quot;: &quot;.swiper-pagination-3&quot;, &quot;clickable&quot;: true } }" style="visibility: visible; animation-name: fadeIn;"> -->
-                        <!-- <div class="swiper-wrapper" id="swiper-wrapper-fde9d53e4d75e07e" aria-live="off" style="transform: translate3d(-2790px, 0px, 0px); transition-duration: 300ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 930px;" role="group" aria-label="3 / 3"> -->
-                                <!-- <div class="row justify-content-center m-0">
-                                    <div class="col-12 col-xl-7 col-lg-8 col-md-10">
-                                        <div class="testimonia-block w-95 sm-w-100 mx-auto"> 
-                                            <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
-                                                <p>Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies. I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-                                            </div>
-                                            <div class="profile-box last-paragraph-no-margin">
-                                                <img src="images/avtar-09.jpg" alt="" class="w-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom" data-no-retina="">
-                                                <div class="w-100">
-                                                    <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Alexander Harvard</p>
-                                                    <p class="text-uppercase text-extra-small text-medium-gray">Graphic Designer, Google inc</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <!-- start testimonial item -->
-                            <!-- <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 930px;" role="group" aria-label="1 / 3">
-                                <div class="row justify-content-center m-0">
-                                    <div class="col-12 col-xl-7 col-lg-8 col-md-10">
-                                        <div class="testimonia-block w-95 sm-w-100 mx-auto">
-                                            <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
-                                                <p>Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies. I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-                                            </div>
-                                            <div class="profile-box">
-                                                <img src="images/avtar-09.jpg" alt="" class="w-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom" data-no-retina="">
-                                                <div class="w-100 last-paragraph-no-margin">
-                                                    <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Alexander Harvard</p>
-                                                    <p class="text-uppercase text-extra-small text-medium-gray">Graphic Designer, Google inc</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>  -->
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
-                            <!-- <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 930px;" role="group" aria-label="2 / 3">
-                                <div class="row justify-content-center m-0">
-                                    <div class="col-12 col-xl-7 col-lg-8 col-md-10">
-                                        <div class="testimonia-block w-95 sm-w-100 mx-auto"> 
-                                            <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
-                                                <p>Trust us we looked for a VERY long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies. I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-                                            </div>
-                                            <div class="profile-box">
-                                                <img src="images/avtar-09.jpg" alt="" class="w-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom" data-no-retina="">
-                                                <div class="w-100 last-paragraph-no-margin">
-                                                    <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Alexander Harvard</p>
-                                                    <p class="text-uppercase text-extra-small text-medium-gray">Graphic Designer, Google inc</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
-                            <!-- <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 930px;" role="group" aria-label="3 / 3">
-                                <div class="row justify-content-center m-0">
-                                    <div class="col-12 col-xl-7 col-lg-8 col-md-10">
-                                        <div class="testimonia-block w-95 sm-w-100 mx-auto"> 
-                                            <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
-                                                <p>Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies. I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-                                            </div>
-                                            <div class="profile-box last-paragraph-no-margin">
-                                                <img src="images/avtar-09.jpg" alt="" class="w-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom" data-no-retina="">
-                                                <div class="w-100">
-                                                    <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Alexander Harvard</p>
-                                                    <p class="text-uppercase text-extra-small text-medium-gray">Graphic Designer, Google inc</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- end testimonial item -->
-                        <!-- <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 930px;" role="group" aria-label="1 / 3">
-                                <div class="row justify-content-center m-0">
-                                    <div class="col-12 col-xl-7 col-lg-8 col-md-10">
-                                        <div class="testimonia-block w-95 sm-w-100 mx-auto">
-                                            <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
-                                                <p>Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies. I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-                                            </div>
-                                            <div class="profile-box">
-                                                <img src="images/avtar-09.jpg" alt="" class="w-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom" data-no-retina="">
-                                                <div class="w-100 last-paragraph-no-margin">
-                                                    <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Alexander Harvard</p>
-                                                    <p class="text-uppercase text-extra-small text-medium-gray">Graphic Designer, Google inc</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div>
-                        <div class="swiper-pagination swiper-pagination-3 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span></div> -->
-                        <!--<div class="swiper-button-next text-black swiper-button-next-3 arrow-light"><i class="ti-arrow-right icon-small"></i></div>
-                        <div class="swiper-button-prev text-black swiper-button-prev-3 arrow-light"><i class="ti-arrow-left icon-small"></i></div>-->
-                    <!-- <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div> -->
-                <!-- </div> -->
-            <!-- </div>  -->
-        <!-- </section> -->
-        <!-- end testimonial section -->
-
-        <!-- start form section-->
-        <section id="contact" class="wow animate__fadeIn border-bottom border-color-extra-light-gray">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
-                    <!-- start features box item -->
-                    <div class="col text-center md-margin-50px-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
-                        <i class="icon-map-pin icon-medium margin-25px-bottom sm-margin-10px-bottom"></i>
-                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Visit Our Office</div>
-                        <p class="w-70 lg-w-85 md-w-55 sm-w-75 sm-margin-10px-bottom mx-auto">10 Zambezi Cres, Maitama 904101, Abuja. Nigeria</p>
-                        <!-- <a href="contact-us-classic-02.html" class="margin-15px-top text-decoration-line-through-deep-pink d-inline-block text-uppercase text-deep-pink text-small sm-no-margin-top">GET DIRECTION</a> -->
-                    </div>
-                    <!-- end features box item -->
-                    <!-- start features box item -->
-                    <div class="col text-center md-margin-50px-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <i class="icon-chat icon-medium margin-25px-bottom sm-margin-10px-bottom"></i>
-                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Let's Talk</div>
-                        <p class="w-70 lg-w-85 md-w-55 sm-w-75 sm-margin-10px-bottom mx-auto">Phone: +44 754 139 9138<br>Fax:</p>
-                        <!-- <a href="contact-us-classic.html" class="margin-15px-top text-decoration-line-through-deep-pink d-inline-block text-uppercase text-deep-pink text-small sm-no-margin-top">call us</a> -->
-                    </div>
-                    <!-- end features box item -->
-                    <!-- start features box item -->
-                    <div class="col text-center sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                        <i class="icon-envelope icon-medium margin-25px-bottom sm-margin-10px-bottom"></i>
-                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">E-mail Us</div>
-                        <p class="w-70 lg-w-85 md-w-55 sm-w-75 sm-margin-10px-bottom mx-auto"><a href="mailto: aisha@aasurfnetworks.com"> aisha@aasurfnetworks.com</a><br><a href="mailto: contact@aasurfnetworks.com"> contact@aasurfnetworks.com</a></p>
-                        <!-- <a href="contact-us-classic-02.html" class="margin-15px-top text-decoration-line-through-deep-pink d-inline-block text-uppercase text-deep-pink text-small sm-no-margin-top">send e-mail</a> -->
-                    </div>
-                    <!-- end features box item -->
-                </div>
+                </form>
             </div>
         </section>
-        <!-- end form section-->
+        <!-- end contact section -->
 
-        <!-- start footer --> 
-        <footer class="footer-strip-dark bg-extra-dark-gray padding-90px-tb lg-padding-70px-tb md-padding-50px-tb sm-padding-40px-tb">
-            <div class="container">
-                <div class="">
+         <!-- start footer --> 
+         <footer class="footer-modern-dark bg-extra-dark-gray padding-five-tb sm-padding-30px-tb">
+            <div class="footer-widget-area padding-40px-bottom sm-padding-30px-bottom">
+                <div class="container">
                     <div class="row align-items-center">
-                        <!-- start logo -->
-                        <div class="col-lg-3 col-md-12 text-center text-md-start md-margin-50px-bottom sm-margin-30px-bottom">
-                            <a href="index.html"><img class="footer-logo" src="images/logo.png" data-at2x="images/logo.png" alt="Pofo" width="113" height="28"></a>
-                        </div> 
-                        <!-- end logo -->
-                        <!-- start copyright -->
-                        <div class="col-lg-4 col-md-5 col-12 sm-margin-30px-bottom text-medium text-center text-md-start">
-                            10 Zambezi Cres, Maitama 904101, Abuja
+                        <!-- start slogan -->
+                        <div class="col-lg-4 text-center text-md-start md-margin-three-bottom sm-margin-20px-bottom">
+                            <h6 class="text-dark-gray w-70 lg-w-100 no-margin-bottom">Abuja Based Innovative Company</h6>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-12 sm-margin-30px-bottom text-medium text-center text-md-start">
-                            +44 754 139 9138<br>
-                            <a href="mailto:contact@aasurfnetworks.com">contact@aasurfnetworks.com</a>
+                        <!-- end slogan -->
+                        <!-- start contact information -->
+                        <div class="col-lg-4 col-md-6 text-center text-md-start sm-margin-20px-bottom">
+                            <span class="d-block">No. 10,<br> Zambezi Crescent, Maitama Abuja.</span>
+                            <a href="mailto:contact@aasunetworks.com" title="sales@domain.com">contact@aasunetworks.com</a> <br> | +44 7541 399138 | +234 813 231 4938
                         </div>
-                        <!-- end copyright -->
+                        <!-- end contact information -->
                         <!-- start social media -->
-                        <div class="col-lg-2 col-md-3 text-center text-md-end">
-                            <div class="social-icon-style-8 d-inline-block align-middle">
-                                <ul class="small-icon mb-0">
-                                    <li><a class="facebook text-white-2" href="https://www.linkedin.com/company/a-a-surf-networks-ltd/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a class="twitter text-white-2" href="https://twitter.com/aa_surf" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <!-- <li><a class="google text-white-2" href="https://plus.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a class="instagram text-white-2" href="https://instagram.com/" target="_blank"><i class="fab fa-instagram me-0" aria-hidden="true"></i></a></li> -->
+                        <div class="col-lg-4 col-md-6 social-style-2 text-center text-md-start">
+                            <a href="index.html"><img class="footer-logo" src="images/logo.png" data-at2x="images/logo.png" alt="Pofo"></a>
+                            <div class="social-icon-style-8">
+                                <ul class="text-extra-small margin-20px-top sm-no-margin-bottom text-uppercase p-0 mb-0 list-unstyled">
+                                    <li class="d-inline-block margin-10px-right"><a href="http://twitter.com/aa_surf" target="_blank" title="Twitter">Twitter</a></li>
+                                    <!-- <li class="d-inline-block margin-10px-right"><a href="http://facebook.com" target="_blank" title="Facebook">Facebook</a></li> -->
+                                    <!-- <li class="d-inline-block margin-10px-right"><a href="http://instagram.com" target="_blank" title="Instagram">Instagram</a></li> -->
+                                    <li class="d-inline-block"><a href="http://linkedIn.com/company/a-a-surf-networks-ltd/about/" target="_blank" title="Dribbble">LinkedIn</a></li>                                                              
                                 </ul>
                             </div>
                         </div>
@@ -696,11 +447,31 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <!-- start copyright -->
+                <div class="footer-bottom border-top border-color-medium-dark-gray padding-40px-top sm-padding-30px-top">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-start text-center text-small"></div>
+                        <div class="col-md-6 text-md-end text-center text-small">&copy; AA Surf Networks</div>
+                    </div>
+                </div>
+                <!-- end copyright -->
+            </div>
         </footer>
         <!-- end footer -->
-        <!-- start scroll to top -->
-        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-        <!-- end scroll to top  -->
+
+        <style>
+            /* base color variable*/
+            :root {
+                --base-color: #d9882a;
+            }
+            .btn.btn-dark-gray {
+                background: transparent;
+                border-color: #626262;
+                color: #626262;
+            }
+        </style>
+        
         <!-- javascript -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootsnav.js"></script>

@@ -2312,7 +2312,7 @@ header.sticky nav.header-light-transparent .logo .logo-light, header.sticky nav.
 .navbar-top-scroll {position: absolute; top: 0; z-index: 5;}
 header.sticky nav.navbar-top-scroll {background-color: inherit;}
 header a.logo {display: inline-block; vertical-align: middle;}
-header a.logo img {max-height:26px;}
+header a.logo img {max-height:40px;}
 header .left-nav .sidebar-part1 a.logo img {max-height:inherit;}
 .logo-holder img {max-height: 26px;}
 
@@ -3794,13 +3794,13 @@ aside .instafeed-grid.gutter-extra-large, footer .instafeed-grid.gutter-extra-la
 
 /* home - creative designer */
 .color-code {justify-content: space-around; align-items: center; z-index: 0;}
-.bg-background-fade {background-color: #ff5851}
+.bg-background-fade {background-color: #CC8b89}
 .color-1, .color-2, .color-3, .color-4, .color-5 {-webkit-transition: background-color 700ms linear; -moz-transition: background-color 700ms linear; -o-transition: background-color 700ms linear; -ms-transition: background-color 700ms linear; transition: background-color 700ms linear;}
-.color-1 {background-color: #ff5851;}
-.color-2 {background-color: #e86618;}
-.color-3 {background-color: #ef3158;}
-.color-4 {background-color: #6b0990;}
-.color-5 {background-color: #4c0990;}
+.color-1 {background-color: #CC8b89;}
+.color-2 {background-color: #3a8a91;}
+.color-3 {background-color: #d9882a;}
+.color-4 {background-color: #b2e6fa;}
+.color-5 {background-color: #1e7294;}
 .color-6 {background-color: #1b3194;}
 
 /* home - classic web agency */
